@@ -1,4 +1,15 @@
-numeric_summary <- function(x, na.rm=T){
+
+
+#' Title
+#'
+#' @param x a numeric
+#' @param na.rm something
+#'
+#' @return
+#' @export
+#'
+#' @examples
+numeric_summary <- function(x, na.rm=TRUE){
 
   min = min(x, na.rm=na.rm)
   max = max(x, na.rm=na.rm)
@@ -11,8 +22,20 @@ numeric_summary <- function(x, na.rm=T){
 
 }
 
-# This function creates a summary for a character vector
-char_summary <- function(x, na.rm=T){
+
+#' This function creates summary of character vector
+#'
+#' @param  x a character vector
+#' @param  na.rm an optional logical parameter for TRUE by default
+#' @return A named character with six values
+#' @export
+#'
+#' @examples
+#' \dontrun{
+#'  y<-c("MA","IL","ME","CA")
+#'  char_summary(y)
+#'  }
+char_summary <- function(x, na.rm=TRUE){
 
   length = length(x)
   Nmiss = sum(is.na(x))
