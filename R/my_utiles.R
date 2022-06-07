@@ -25,7 +25,7 @@ numeric_summary <- function(x, na.rm=TRUE){
 
 #' This function creates summary of character vector
 #'
-#' @param  x a character vector
+#' @param  x a character vector hhhhhh
 #' @param  na.rm an optional logical parameter for TRUE by default
 #' @return A named character with six values
 #' @export
