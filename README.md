@@ -30,6 +30,13 @@ library(myutiles)
 ## basic example code
 ```
 
+to view more examples
+
+``` r
+browseVignettes("myutiles")
+#> No vignettes found by browseVignettes("myutiles")
+```
+
 What is special about using `README.Rmd` instead of just `README.md`?
 You can include R chunks like so:
 
