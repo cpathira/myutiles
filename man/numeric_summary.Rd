@@ -4,12 +4,14 @@
 \alias{numeric_summary}
 \title{Title}
 \usage{
-numeric_summary(x, na.rm = TRUE)
+numeric_summary(x, na.rm = TRUE, verbose = FALSE)
 }
 \arguments{
 \item{x}{a numeric}
 
 \item{na.rm}{something}
+
+\item{verbose}{is TRUE for verbose output}
 }
 \description{
 Title

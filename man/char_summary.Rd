@@ -7,7 +7,7 @@
 char_summary(x, na.rm = TRUE)
 }
 \arguments{
-\item{x}{a character vector}
+\item{x}{a character vector hhhhhh}
 
 \item{na.rm}{an optional logical parameter for TRUE by default}
 }

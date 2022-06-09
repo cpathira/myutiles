@@ -4,12 +4,18 @@
 #'
 #' @param x a numeric
 #' @param na.rm something
+#' @param verbose is TRUE for verbose output
 #'
 #' @return
 #' @export
 #'
 #' @examples
-numeric_summary <- function(x, na.rm=TRUE){
+numeric_summary <- function(x, na.rm=TRUE, verbose=FALSE){
+
+  if (!is.numeric(x)) stop("x must be a numeric vector")
+
+ if (verbose)message("see document")
+
 
   min = min(x, na.rm=na.rm)
   max = max(x, na.rm=na.rm)
